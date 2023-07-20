@@ -1,0 +1,8 @@
+//run
+docker-run hello world
+
+//to check which all are running
+docker ps
+
+//to check the history
+docker ps -a
