@@ -1,8 +1,8 @@
 //run
 docker-run hello world
 
-//to check which all are running
+//to check which all containers are running
 docker ps
 
-//to check the history
+//to check the history previously run containers
 docker ps -a
