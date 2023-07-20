@@ -6,3 +6,28 @@ docker ps
 
 //to check the history previously run containers
 docker ps -a
+
+//to check the existing images
+docker images
+
+//to get the images
+docker pull images-name
+eg: docker pull redis
+
+//to run in detached mode
+docker run -d image-name
+eg: docker run -d redis
+
+//to stop a container
+docker stop container-id
+
+//to start a container
+docker start container-id
+
+//to pull a another version of same image
+docker pull image-name:version
+
+//to run a another version of same image
+docker run image-name:version
+
+
