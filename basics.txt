@@ -30,4 +30,15 @@ docker pull image-name:version
 //to run a another version of same image
 docker run image-name:version
 
+//to map a host port with and run a image
+docker run -d -p<host-port-name>:<image-port-name> image-name
+eg:docker run -d -p5001:6379 redis:5.0
 
+//to get the log of docker container which is running
+docker log <container-id>
+
+//to run the image with specific name
+docker run -d -p<host-port-name>:<image-port-name> --name <name> image-name
+
+//to log into container and make changes
+docker exec -it container-name/container-id /bin/bash
