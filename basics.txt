@@ -48,3 +48,9 @@ eg:docker run -d --name my-postgresSQL -e POSTGRES_USER=ganesh -e POSTGRES_PASSW
 
 //to remove the traces(so that the naming conflict wont be there)
 docker container prune
+
+//run a docker-compose file
+docker-compose up -d -y<path....if it is stored in another directory>
+
+//to stop the compose file
+docker-compose down
