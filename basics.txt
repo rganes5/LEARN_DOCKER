@@ -55,5 +55,14 @@ docker-compose up -d -y<path....if it is stored in another directory>
 //to stop the compose file
 docker-compose down
 
+//1. Host volume
 //for data persistence, we can select a physical file system and connect that path with the virtual file system inside the container
-docker run -v <physical file system path>:<virtual file system path>
+docker run -v /<physical file system path>:/<virtual file system path>
+
+//2. Anonymous volume
+//we only give the virtual file system path, so that docker will automatically set a path in the physical file system
+docker run -v /<virtual file system path>
+
+//3. Named volume
+//we can give a name to the physical file system so that we can later access, but docker will be the one who sets a location to the physical file system
+//docker run -v name:/<virtual file system path>
