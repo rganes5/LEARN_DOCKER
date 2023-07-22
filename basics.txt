@@ -54,3 +54,6 @@ docker-compose up -d -y<path....if it is stored in another directory>
 
 //to stop the compose file
 docker-compose down
+
+//for data persistence, we can select a physical file system and connect that path with the virtual file system inside the container
+docker run -v <physical file system path>:<virtual file system path>
