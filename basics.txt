@@ -65,4 +65,7 @@ docker run -v /<virtual file system path>
 
 //3. Named volume
 //we can give a name to the physical file system so that we can later access, but docker will be the one who sets a location to the physical file system
-//docker run -v name:/<virtual file system path>
+docker run -v name:/<virtual file system path>
+
+//to list volumes
+docker volumes ls
