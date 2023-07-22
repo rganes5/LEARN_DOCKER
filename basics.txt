@@ -68,4 +68,7 @@ docker run -v /<virtual file system path>
 docker run -v name:/<virtual file system path>
 
 //to list volumes
-docker volumes ls
+docker volume ls
+
+//to check the mountpoint and location of volume in localmachine and all
+docker volume inspect <volume-name>
