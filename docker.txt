@@ -32,6 +32,7 @@ Benefits of Docker:
 
 Docker has become an integral part of modern software development and deployment workflows, facilitating consistent and reliable application deployment across various platforms and cloud environments.
 
+DOCKER-COMPOSE
 **Docker Compose** is a tool used to define and manage multi-container Docker applications. It allows you to specify the services, networks, and volumes required for your application in a single YAML file called `docker-compose.yml`. With Docker Compose, you can define the entire application stack, including all its dependencies and configurations, in a declarative and version-controlled manner.
 
 The `docker-compose.yml` file typically contains the following information:
