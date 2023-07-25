@@ -73,6 +73,12 @@ docker volume ls
 //to check the mountpoint and location of volume in localmachine and all
 docker volume inspect <volume-name>
 
+//to log inside the the container which is running
+docker logs <container_name>
+docker logs  maanushi_earth_e-commerce_web_1
+
+
+
 
 //miscellaneous
  
