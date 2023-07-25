@@ -72,3 +72,14 @@ docker volume ls
 
 //to check the mountpoint and location of volume in localmachine and all
 docker volume inspect <volume-name>
+
+
+//miscellaneous
+ 
+
+//to check what is running in port
+sudo lsof -i :5432
+
+//to stop the service that is running in the port
+systemctl stop postgresql
+
